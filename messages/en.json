@@ -1,6 +1,13 @@
 {
-    "HomePage": {
-      "title": "Hello world!",
-      "about": "Go to the about page"
-    }
+  "Header": {
+    "services": "Services",
+    "contact": "Contact",
+    "about": "About"
+  },
+
+  "Hero": {
+    "title": "OWNET",
+    "subtitle": "CLEANING OF TOURIST APARTMENTS",
+    "about": "Go to about page"
   }
+}

@@ -4,6 +4,7 @@ import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import "./globals.css";
 import Header from '@/components/header';
+import Hero from './hero';
 
 export default async function LocaleLayout({
   children,
@@ -26,6 +27,7 @@ export default async function LocaleLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           <Header />
+          <Hero />
           {children}
         </NextIntlClientProvider>
       </body>

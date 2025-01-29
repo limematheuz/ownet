@@ -1,6 +1,13 @@
 {
-    "HomePage": {
-      "title": "¿Hola mundo!",
-      "about": "Ir a la página de acerca de"
-    }
+  "Header": {
+    "services": "Servicios",
+    "contact": "Contacto",
+    "about": "Acerca de"
+  },
+
+  "Hero": {
+    "title": "OWNET",
+    "subtitle": "LIMPIEZA DE APARTAMENTOS TURISTÍCOS",
+    "about": "Ir a la página de acerca de"
   }
+}
