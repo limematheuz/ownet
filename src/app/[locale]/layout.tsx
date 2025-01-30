@@ -3,31 +3,26 @@ import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import "./globals.css";
-import Header from '@/components/header';
-import Hero from './hero';
 
 export default async function LocaleLayout({
   children,
-  params: {locale}
+  params
 }: {
   children: React.ReactNode;
   params: {locale: string};
 }) {
-  // Ensure that the incoming `locale` is valid
+  const { locale } = await params;
+
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
  
-  // Providing all messages to the client
-  // side is the easiest way to get started
-  const messages = await getMessages();
+  const messages = await getMessages({ locale });
  
   return (
-    <html lang={locale}>
-      <body>
+    <html lang={locale} >
+      <body className="max-w-screen" >
         <NextIntlClientProvider messages={messages}>
-          <Header />
-          <Hero />
           {children}
         </NextIntlClientProvider>
       </body>
