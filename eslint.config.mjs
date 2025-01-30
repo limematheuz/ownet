@@ -19,10 +19,4 @@ const eslintConfig = [
   },
 ];
 
-const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true, // Ignora ESLint durante el build en Vercel
-  },
-};
-
-export { eslintConfig, nextConfig };
+export { eslintConfig };
