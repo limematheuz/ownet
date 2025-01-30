@@ -6,21 +6,20 @@ import "./globals.css";
 
 type Locales = "en" | "ge" | "fr" | "es";
 
-export default async function LocaleLayout({
-  children,
-  params
-}: {
+interface LayoutProps {
   children: React.ReactNode;
-  params: {locale: Locales};
-}) {
+  params: { locale: Locales };
+}
+
+export default async function LocaleLayout({ children, params }: LayoutProps) {
   const { locale } = params;
 
   if (!routing.locales.includes(locale)) {
     notFound();
   }
- 
+
   const messages = await getMessages({ locale });
- 
+
   return (
     <html lang={locale}>
       <body className="max-w-screen">
