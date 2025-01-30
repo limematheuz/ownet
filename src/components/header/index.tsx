@@ -28,7 +28,7 @@ export default function Header() {
 
   return (
     <header className={`flex items-center justify-between w-screen h-20 px-6 py-4 fixed top-0 left-0 right-0 z-10 transition-colors duration-300 
-      ${scroll ? "bg-white" : "bg-transparent "}`}>
+      ${scroll ? "bg-white shadow-md" : "bg-transparent "}`}>
       <Link href={"/"}>
         <div className="flex items-center w-32 h-12">
           <Image
@@ -39,7 +39,7 @@ export default function Header() {
         </div>
       </Link>
 
-      <nav className={`flex space-x-10 font-semibold text-white  ${scroll ? " text-black" : "bg-transparent text-white"}`}>
+      <nav className={`flex space-x-10 font-semibold   ${scroll ? "text-black" : "bg-transparent text-white"}`}>
         <Link href={"/about"}>{t("services")}</Link>
         <Link href={"/about"}>{t("contact")}</Link>
         <Link href={"/about"}>{t("about")}</Link>
