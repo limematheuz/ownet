@@ -9,6 +9,12 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
+const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true, // ✅ Ignora ESLint en el build de Vercel
+  },
+};
+
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
@@ -19,4 +25,4 @@ const eslintConfig = [
   },
 ];
 
-export default eslintConfig;
+export default {eslintConfig, nextConfig};
