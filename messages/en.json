@@ -4,10 +4,36 @@
     "contact": "Contact",
     "about": "About"
   },
-
   "Hero": {
     "title": "OWNET",
     "subtitle": "CLEANING OF TOURIST APARTMENTS",
     "about": "Go to about page"
+  },
+  "Services": {
+    "title": "Services",
+    "card1": {
+      "title": "Ocasional or Periodic Cleaning",
+      "description": "Keep your space fresh with a thorough clean tailored to your needs, so your home always feels cozy."
+    },
+    "card2": {
+      "title": "Residential and Tourist Apartment Cleaning",
+      "description":"Make your home or guest apartment shine with a detailed clean that leaves every corner inviting."
+    },
+    "card3": {
+      "title": "Office Cleaning",
+      "description": ">Enjoy a neat and welcoming workspace with our hassle-free office cleaning service."
+    },
+    "card4": {
+      "title": "Window Cleaning",
+      "description": "Brighten your view with sparkling clean windows that let in more natural light."
+    },
+    "card5": {
+      "title": "Community Cleaning",
+      "description": "Enjoy shared spaces that are neat and inviting, with our reliable community cleaning service."
+    },
+    "card6": {
+      "title": "Final Cleaning in Construction and Renovations",
+      "description": "End your project on a high note our final cleaning clears the dust so your new space feels ready and welcoming."
+    }
   }
 }

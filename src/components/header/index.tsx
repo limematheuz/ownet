@@ -11,17 +11,17 @@ import {
 } from "@/components/ui/sheet";
 
 import Image from "next/image";
-import { Cross, Languages, Menu } from "lucide-react";
+import { Languages, Menu } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import { useState, useEffect } from "react";
+import { Button } from "../ui/button";
 
 import logo from "@/assets/img/ownetLogo.png";
 import spain from "@/assets/svg/spain.svg";
 import english from "@/assets/svg/england.svg";
 import france from "@/assets/svg/france.svg";
 import german from "@/assets/svg/german.svg";
-import { Button } from "../ui/button";
 
 export default function Header() {
   const [scroll, setScroll] = useState(false);
@@ -37,9 +37,9 @@ export default function Header() {
   }, []);
 
   return (
-    <section className="flex w-full flex-col ">
+    <header className="flex w-full flex-col ">
       {/* Componente Sheet para móvil */}
-      <header className="absolute top-4 left-4 z-10">
+      <section className="absolute top-4 left-4 z-10">
         <Sheet>
           <SheetTrigger asChild>
             <Button size="icon" variant="outline" className="sm:hidden">
@@ -123,10 +123,10 @@ export default function Header() {
             </SheetHeader>
           </SheetContent>
         </Sheet>
-      </header>
+      </section>
 
       {/* Cabecera para escritorio */}
-      <header
+      <section
         className={`hidden lg:flex items-center justify-between w-screen h-24 px-12 py-16 fixed top-0 left-0 right-0 z-10 transition-colors duration-300 
         ${scroll ? "bg-white shadow-md" : "bg-transparent"}`}
       >
@@ -134,7 +134,7 @@ export default function Header() {
           <div className="flex items-center w-32 h-12">
             <Image
               src={logo}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover hover:scale-105"
               alt="logo"
             />
           </div>
@@ -188,7 +188,7 @@ export default function Header() {
             </Link>
           </SelectContent>
         </Select>
-      </header>
-    </section>
+      </section>
+    </header>
   );
 }

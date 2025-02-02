@@ -4,10 +4,36 @@
     "contact": "Kontakt",
     "about": "Über uns"
   },
-
   "Hero": {
     "title": "OWNET",
     "subtitle": "REINIGUNG VON FERIENWOHNUNGEN",
-    "about": "Zur Über uns Seite"
+    "about": "Zur Über-uns-Seite gehen"
+  },
+  "Services": {
+    "title": "Dienstleistungen",
+    "card1": {
+      "title": "Gelegentliche oder Regelmäßige Reinigung",
+      "description": "Halten Sie Ihren Raum frisch mit einer gründlichen Reinigung, die an Ihre Bedürfnisse angepasst ist, damit sich Ihr Zuhause immer gemütlich anfühlt."
+    },
+    "card2": {
+      "title": "Reinigung von Wohn- und Ferienwohnungen",
+      "description": "Lassen Sie Ihr Zuhause oder Ihre Ferienwohnung mit einer gründlichen Reinigung glänzen, die jede Ecke einladend macht."
+    },
+    "card3": {
+      "title": "Büroreinigung",
+      "description": "Genießen Sie einen sauberen und einladenden Arbeitsplatz mit unserem stressfreien Büroreinigungsservice."
+    },
+    "card4": {
+      "title": "Fensterreinigung",
+      "description": "Lassen Sie mehr Tageslicht herein mit streifenfreien, glänzenden Fenstern."
+    },
+    "card5": {
+      "title": "Reinigung von Gemeinschaftsbereichen",
+      "description": "Genießen Sie saubere und gepflegte Gemeinschaftsräume mit unserem zuverlässigen Reinigungsservice."
+    },
+    "card6": {
+      "title": "Endreinigung nach Bau- und Renovierungsarbeiten",
+      "description": "Beenden Sie Ihr Projekt mit einem perfekten Abschluss—unsere Endreinigung entfernt den Staub, sodass Ihr neuer Raum sofort bezugsfertig ist."
+    }
   }
 }

@@ -4,10 +4,36 @@
     "contact": "Contact",
     "about": "À propos"
   },
-
   "Hero": {
     "title": "OWNET",
-    "subtitle": "NETTOYAGE DES APPARTEMENTS TOURISTIQUES",
-    "about": "Aller à la page à propos"
+    "subtitle": "NETTOYAGE D'APPARTEMENTS TOURISTIQUES",
+    "about": "Aller à la page À propos"
+  },
+  "Services": {
+    "title": "Services",
+    "card1": {
+      "title": "Nettoyage Occasionnel ou Périodique",
+      "description": "Gardez votre espace frais avec un nettoyage en profondeur adapté à vos besoins, pour que votre maison reste toujours accueillante."
+    },
+    "card2": {
+      "title": "Nettoyage Résidentiel et d'Appartements Touristiques",
+      "description": "Faites briller votre maison ou votre appartement de location avec un nettoyage minutieux qui laisse chaque recoin impeccable."
+    },
+    "card3": {
+      "title": "Nettoyage de Bureaux",
+      "description": "Profitez d’un espace de travail propre et accueillant grâce à notre service de nettoyage de bureaux sans tracas."
+    },
+    "card4": {
+      "title": "Nettoyage des Fenêtres",
+      "description": "Illuminez votre intérieur avec des fenêtres impeccables qui laissent entrer plus de lumière naturelle."
+    },
+    "card5": {
+      "title": "Nettoyage des Espaces Communautaires",
+      "description": "Profitez d'espaces partagés propres et accueillants avec notre service de nettoyage fiable."
+    },
+    "card6": {
+      "title": "Nettoyage Final après Travaux et Rénovations",
+      "description": "Terminez votre projet en beauté notre nettoyage final élimine la poussière pour que votre nouvel espace soit prêt à être utilisé."
+    }
   }
 }

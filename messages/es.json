@@ -4,10 +4,36 @@
     "contact": "Contacto",
     "about": "Acerca de"
   },
-
   "Hero": {
     "title": "OWNET",
-    "subtitle": "LIMPIEZA DE APARTAMENTOS TURISTÍCOS",
-    "about": "Ir a la página de acerca de"
+    "subtitle": "LIMPIEZA DE APARTAMENTOS TURÍSTICOS",
+    "about": "Ir a la página Acerca de"
+  },
+  "Services": {
+    "title": "Servicios",
+    "card1": {
+      "title": "Limpieza Ocasional o Periódica",
+      "description": "Mantén tu espacio fresco con una limpieza profunda adaptada a tus necesidades, para que tu hogar siempre se sienta acogedor."
+    },
+    "card2": {
+      "title": "Limpieza de Apartamentos Residenciales y Turísticos",
+      "description": "Haz que tu hogar o apartamento turístico brille con una limpieza detallada que deje cada rincón impecable."
+    },
+    "card3": {
+      "title": "Limpieza de Oficinas",
+      "description": "Disfruta de un espacio de trabajo limpio y acogedor con nuestro servicio de limpieza de oficinas sin complicaciones."
+    },
+    "card4": {
+      "title": "Limpieza de Ventanas",
+      "description": "Ilumina tu vista con ventanas impecables que dejan entrar más luz natural."
+    },
+    "card5": {
+      "title": "Limpieza de Comunidades",
+      "description": "Disfruta de espacios compartidos limpios y acogedores con nuestro servicio de limpieza confiable."
+    },
+    "card6": {
+      "title": "Limpieza Final en Construcción y Renovaciones",
+      "description": "Termina tu proyecto con éxito nuestra limpieza final elimina el polvo para que tu nuevo espacio esté listo y acogedor."
+    }
   }
 }

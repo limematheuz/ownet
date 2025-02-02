@@ -1,9 +1,9 @@
 import { useTranslations } from "next-intl";
 
 import Image from "next/image";
-import hero from "@/assets/img/hero.webp";
+// import hero from "@/assets/img/hero.webp";
+import hero from "@/assets/img/hero-3.jpg";
 import { Button } from "@/components/ui/button";
-import Header from "@/components/header";
 
 export default function Hero() {
   const t = useTranslations("Hero");
@@ -16,7 +16,7 @@ export default function Hero() {
         priority
       ></Image>
       <div className=" absolute flex flex-col top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center gap-8">
-        <h1 className="text-8xl font-bold text-white"> {t("title")} </h1>
+        <h1 className="text-8xl font-bold text-white">{t("title")}</h1>
         <h2 className="text-4xl font-semibold text-white">{t("subtitle")}</h2>
         <div className="flex justify-center gap-4 mt-8">
           <Button>Services</Button>
