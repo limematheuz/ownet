@@ -1,0 +1,1 @@
+1. Si actualizo la app, como ira cambiando la version de la app? 
