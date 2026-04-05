@@ -1,6 +1,5 @@
 from sqlalchemy import Column, Integer, String, Boolean, DateTime
 from sqlalchemy.sql import func
-# Importamos la "Máquina Registradora" que creaste antes
 from app.db.session import Base
 
 class User(Base):
